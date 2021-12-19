@@ -37,7 +37,7 @@ API statis adalah API yang _endpoint_-nya terdiri dari file statis.
 #### 1. Mengambil Daftar Provinsi
 
 ```
-GET https://emsifa.github.io/api-wilayah-indonesia/api/provinces.json
+GET https://andihaidarali.github.io/api-wilayah-indonesia/api/provinces.json
 ```
 
 Contoh Response:
@@ -89,13 +89,13 @@ Contoh Response:
 #### 3. Mengambil Daftar Kecamatan pada Kab/Kota Tertentu
 
 ```
-GET https://emsifa.github.io/api-wilayah-indonesia/api/districts/{regencyId}.json
+GET https://andihaidarali.github.io/api-wilayah-indonesia/api/districts/{regencyId}.json
 ```
 
 Contoh untuk mengambil daftar kecamatan di Aceh Selatan (ID = 1103):
 
 ```
-GET https://emsifa.github.io/api-wilayah-indonesia/api/districts/1103.json
+GET https://andihaidarali.github.io/api-wilayah-indonesia/api/districts/1103.json
 ```
 
 Contoh Response:
@@ -119,13 +119,13 @@ Contoh Response:
 #### 4. Mengambil Daftar Kelurahan pada Kecamatan Tertentu
 
 ```
-GET https://emsifa.github.io/api-wilayah-indonesia/api/villages/{districtId}.json
+GET https://andihaidarali.github.io/api-wilayah-indonesia/api/villages/{districtId}.json
 ```
 
 Contoh untuk mengambil daftar kelurahan di Trumon (ID = 1103010):
 
 ```
-GET https://emsifa.github.io/api-wilayah-indonesia/api/villages/1103010.json
+GET https://andihaidarali.github.io/api-wilayah-indonesia/api/villages/1103010.json
 ```
 
 Contoh Response:
